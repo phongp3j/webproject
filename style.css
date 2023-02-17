@@ -83,9 +83,10 @@ ul li a:hover{
     display: block;
     position: absolute;
     border: gray;
-    border-radius: 1px;
+    border-radius: 10px;
     background: aliceblue;
     margin-left: -15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .menu ul li:hover .sub-menu1 ul{
