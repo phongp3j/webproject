@@ -14,6 +14,7 @@
     font-size: 15px;
     text-decoration: none ;
     margin-left: 3px;
+    font-family: arial;
 }
 
 .header-left{
@@ -66,10 +67,41 @@ ul li a{
     text-decoration: none;
     color: gray;
     font-family: arial;
-    font-weight: bold;
+    font-weight: 300 ;
 }
 
 ul li a:hover{
     transition: 0.5s;
     color: black;
+}
+
+.sub-menu1{
+    display: none;
+}
+
+.menu ul li:hover .sub-menu1{
+    display: block;
+    position: absolute;
+    border: gray;
+    border-radius: 1px;
+    background: aliceblue;
+    margin-left: -15px;
+}
+
+.menu ul li:hover .sub-menu1 ul{
+    display: block;
+    margin: 10px;
+}
+
+.menu ul li:hover .sub-menu1 ul li{
+    width: 100px;
+    padding: 5px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    text-align: left;
+}
+
+.menu ul li:hover .sub-menu1 ul li a:hover{
+    color: black;
+    transition: 0.5s;
 }
