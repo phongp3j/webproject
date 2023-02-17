@@ -71,7 +71,7 @@ ul li a{
 }
 
 ul li a:hover{
-    transition: 0.5s;
+    transition: 1s;
     color: black;
 }
 
@@ -85,8 +85,8 @@ ul li a:hover{
     border: gray;
     border-radius: 10px;
     background: aliceblue;
-    margin-left: -15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: -10px;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .menu ul li:hover .sub-menu1 ul{
@@ -95,14 +95,15 @@ ul li a:hover{
 }
 
 .menu ul li:hover .sub-menu1 ul li{
-    width: 100px;
-    padding: 5px;
+    width: 130px;
+    padding: 10px;
     border-bottom: 1px dotted #fff;
     background: transparent;
     text-align: left;
+    transition: 1s;
 }
 
 .menu ul li:hover .sub-menu1 ul li a:hover{
     color: black;
-    transition: 0.5s;
+    transition: 1s;
 }
