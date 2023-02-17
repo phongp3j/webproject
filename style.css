@@ -38,10 +38,11 @@
 .logo{
     color: black;
     font-size: 35px;
-    padding-left: 80px;
+    padding-left: 150px;
     padding-top: 25px;
     float: left;
     font-family: arial;
+    width: 15%;
 }
 .menu{
     width: 60%;
