@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+a{
+    text-decoration: none;
+}
 .header{
     background-color: black;
     height: 30px;
@@ -115,9 +117,25 @@
     border-bottom: 1px dotted #fff;
     background: transparent;
     text-align: left;
-    transition: 1s;
+    transition: 0.7s;
+}
+.menu ul li:hover .sub-menu1 ul li:hover{
+    color: black;
+    transition: 0.7s;
+}
+.menu ul li:hover .sub-menu1 ul li a:hover{
+    color: black;
+    transition: 0.7s;
 }
 
-.menu ul li:hover .sub-menu1 ul li a{
-    color: black;
+.login a{
+    color: gray;
+    font-family: arial;
+    font-weight: 300;
+}
+
+.shopping-cart a{
+    color: gray;
+    font-family: arial;
+    font-weight: 300;
 }
