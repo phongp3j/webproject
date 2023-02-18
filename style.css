@@ -9,12 +9,11 @@
     width: 100%;
 }
 
-.header a{
+.header div a{
     color: aliceblue;
     font-size: 15px;
     text-decoration: none ;
     margin-left: 3px;
-    font-family: arial;
 }
 
 .header-left{
@@ -33,45 +32,61 @@
     height: 100px;
     width: 100%;
     background-color: aliceblue;
-}
-
-.logo{
-    color: black;
-    font-size: 35px;
-    padding-left: 150px;
-    padding-top: 25px;
-    float: left;
-    font-family: arial;
-    width: 15%;
-}
-.menu{
-    width: 60%;
-    float: left;
-}
-
-ul{
-    float: left;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly; /*cach deu cac div*/
     align-items: center;
 }
 
-ul li{
-    list-style: none;
-    margin-top: 38px;
-    margin-left: 62px;
-    font-size: 18px;
+.navbar .logo{
+    color: black;
+    font-size: 35px;
+    padding-left: 80px;
+    /* padding-top: 25px; */
+    font-family: arial;
 }
 
-ul li a{
+.navbar .menu{
+    width: 60%;
+    /* height: 70px; */
+}
+.navbar .search {
+    align-items: center;
+}
+
+.navbar .search .font-size{
+    font-size: 25px;
+}
+
+.navbar .shopping-cart, .navbar .login{
+    display: flex;
+    justify-content: space-between;
+    width: 95px;
+    font-size: 17px;
+    font-family: arial;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 70px; */
+}
+
+.menu ul li{
+    list-style: none;
+    margin: 0 auto;
+    font-size: 18px;
+} 
+
+.menu ul li a{
     text-decoration: none;
     color: gray;
     font-family: arial;
-    font-weight: 300 ;
+    font-weight: 300;
 }
 
-ul li a:hover{
-    transition: 1s;
+.menu ul li a:hover{
+    transition: 0.5s;
     color: black;
 }
 
@@ -103,7 +118,6 @@ ul li a:hover{
     transition: 1s;
 }
 
-.menu ul li:hover .sub-menu1 ul li a:hover{
+.menu ul li:hover .sub-menu1 ul li a{
     color: black;
-    transition: 1s;
 }
