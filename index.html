@@ -1,25 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
     <script src="https://kit.fontawesome.com/a9b5d52ac6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div class="header">
-        <div class="header-left">
-            <i class="fa-solid fa-house-chimney" style="color: aliceblue;"></i>
-            <a href="#">Home</a>
-        </div>
-        
-        <div class="header-right">
-            <i class="fa-sharp fa-solid fa-phone" style="color: aliceblue;"></i>
-            <a href="#">Mua hàng online: 0382567198</a>
-        </div>
-    </div>
     <div class="main">
         <div class="navbar">
             <div class="icon">
@@ -30,11 +25,21 @@
                     <li><a href="#">SẢN PHẨM <i class="fa-sharp fa-solid fa-caret-down" style="color: gray;"></i></a>
                         <div class="sub-menu1">
                             <ul>
-                                <li><a href="#">Đầm</a></li>
-                                <li><a href="#">Áo sơ mi</a></li>
-                                <li><a href="#">Áo dài</a></li>
-                                <li><a href="#">Quần</a></li>
-                                <li><a href="#">Chân váy</a></li>
+                                <a href="#">
+                                    <li>Đầm</li>
+                                </a>
+                                <a href="#">
+                                    <li>Áo sơ mi</li>
+                                </a>
+                                <a href="#">
+                                    <li>Áo dài</li>
+                                </a>
+                                <a href="#">
+                                    <li>Quần</li>
+                                </a>
+                                <a href="#">
+                                    <li>Chân váy</li>
+                                </a>
                             </ul>
                         </div>
                     </li>
@@ -43,36 +48,224 @@
                     <li><a href="#">SALE <i class="fa-sharp fa-solid fa-caret-down" style="color: gray;"></i></a>
                         <div class="sub-menu1">
                             <ul>
-                                <li><a href="#">Sale 70%</a></li>
-                                <li><a href="#">Sale 99k</a></li>
+                                <a href="#">
+                                    <li>Sale 70%</li>
+                                </a>
+                                <a href="#">
+                                    <li>Sale 99k</li>
+                                </a>
                             </ul>
                         </div>
                     </li>
                     <li><a href="#">SẢN PHẨM NHẬP KHẨU</a></li>
-                    <li><a><i class="fa-solid fa-magnifying-glass font-size" ></i></a>
+                    <li>
+                        <a><i class="fa-solid fa-magnifying-glass font-size"></i></a>
                         <div class="sub-menu1">
                             <div class="search-sub">
                                 <form action="">
-                                    <input type="text" placeholder="Tìm kiếm ...." style="padding: 15px; border-radius: 10px; border: none;">
-                                    <button type="submit" style="padding: 15px; border: 1px solid;border-radius: 10px; background-color: black;"><i class="fa-solid fa-magnifying-glass" style="color: aliceblue;"></i></button>
+                                    <input type="text" placeholder="Tìm kiếm ...."
+                                        style="padding: 15px; border-radius: 10px; border: none;">
+                                    <button type="submit"
+                                        style="padding: 15px; border: 1px solid;border-radius: 10px; background-color: black;"><i
+                                            class="fa-solid fa-magnifying-glass" style="color: aliceblue;"></i></button>
                                 </form>
                             </div>
-                         </div>
+                        </div>
                     </li>
                 </ul>
             </div>
             <div class="login">
-                    <i class="fa-solid fa-user" ></i>
-                    <a href="#">Tài khoản</a>
+                <i class="fa-solid fa-user"></i>
+                <a href="#">Tài khoản</a>
             </div>
             <div class="shopping-cart">
-                    <i class="fa-solid fa-bag-shopping"></i>
-                    <a href="#">Giỏ hàng</a>
+                <i class="fa-solid fa-bag-shopping"></i>
+                <a href="#">Giỏ hàng</a>
             </div>
         </div>
         <div class="banner">
-            <img src="banner1.webp" alt="banner" style="width: 100%; height: auto;">
+            <!-- <img src="banner1.webp" alt="banner" style="width: 100%; height: auto;"> -->
+            <img src="image/banner1.webp" alt="banner" style="width:100%; height: auto;">
+        </div>
+        <div class="new-product">
+            <div class="new-product-title">
+                <h1>Sản phẩm mới</h1>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="product col col-sm-3">
+                        <div class="card">
+                            <a href="#"><img class="card-img-top" src="image/New Product 1.webp" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <a href="#"><h5 class="card-title">CHÂN VÁY BÚT CHÌ Z06012</h5></a>
+                                <a href="#"><p class="card-text">1,299,000₫</p></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product col col-sm-3">
+                        <div class="card">
+                            <a href="#"><img class="card-img-top" src="image/New Product 2.webp" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <a href="#"><h5 class="card-title">SƠ MI TAY LOE SM16192</h5></a>
+                                <a href="#"><p class="card-text">899,000₫</p></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product col col-sm-3">
+                        <div class="card">
+                            <a href="#"><img class="card-img-top" src="image/New Product 3.webp" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <a href="#"><h5 class="card-title">ĐẦM TIỆC TRẮC D17612</h5></a>
+                                <a href="#"><p class="card-text">1,599,000₫</p></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product col col-sm-3">
+                        <div class="card">
+                            <a href="#"><img class="card-img-top" src="image/New Product 4.webp" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <a href="#"><h5 class="card-title">ĐẦM REN ĐÍNH HOA 3D D16832</h5></a>
+                                <a href="#"><p class="card-text">1,496,000₫</p></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="new-product-title">
+                <h1>Sản phẩm bán chạy</h1>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="product col col-sm-3">
+                        <div class="card">
+                            <a href="#"><img class="card-img-top" src="image/Best Sale 1.webp" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <a href="#"><h5 class="card-title">ÁO GILE ĐEN AK11592</h5></a>
+                                <a href="#"><p class="card-text">299,700₫</p></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product col col-sm-3">
+                        <div class="card">
+                            <a href="#"><img class="card-img-top" src="image/Best Sale 2.webp" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <a href="#"><h5 class="card-title">CHÂN VÁY BÚT CHÌ Z06012</h5></a>
+                                <a href="#"><p class="card-text">209,700₫</p></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product col col-sm-3">
+                        <div class="card">
+                            <a href="#"><img class="card-img-top" src="image/Best Sale 3.webp" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <a href="#"><h5 class="card-title">ĐẦM LIỀN THIẾT KẾ D03802</h5></a>
+                                <a href="#"><p class="card-text">359,700₫</p></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product col col-sm-3">
+                        <div class="card">
+                            <a href="#"><img class="card-img-top" src="image/Best Sale 4.webp" alt="Card image cap"></a>
+                            <div class="card-body">
+                                <a href="#"><h5 class="card-title">ĐẦM XANH CỔ VEST D42402</h5></a>
+                                <a href="#"><p class="card-text">599,000₫</p></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner2">
+                <!-- <img src="banner1.webp" alt="banner" style="width: 100%; height: auto;"> -->
+    
+                <img src="image/hb_image1.webp" alt="banner" style="width:100%; height: auto; margin-top: 30px;">
+            </div>
+        </div>
+        
+        <div class="pre-footer">
+            <div class="inner">
+                <div class="subscribe">
+                    <div class="sub-describe">
+                        <h2>Đăng ký bản tin</h2>
+                        <p>Đăng ký nhận bản tin PHK để được cập nhật những mẫu thiết kế mới nhất</p>    
+                    </div>
+                    <div class="sub-form">
+                        <form action="">
+                            <input class="input-email" type="text" placeholder="Vui lòng nhập email...">
+                            <button class="describe-btn">
+                                ĐĂNG KÝ
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-facebook fb-icon"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="row">
+                <div class="footer1 col col-sm-3">
+                    <h5>PHK FASHION - THỜI TRANG CÔNG SỞ</p>
+                    <p>
+                        Công ty TNHH Dịch vụ và Thương mại Khánh Phạm.<br>
+                        
+                        Số ĐKKD 86868686, Sở KHĐT Tp. Hà Nội cấp ngày 25/02/2023<br>
+                       
+                        Địa chỉ: Văn phòng 1 cửa, Học viện Bưu chính và Viễn thông<br>
+                        km10 đường Nguyễn Trãi  , Q. Hà Đông, Hà Nội<br>
+                        
+                        Chăm sóc khách hàng: 0382567198<br>
+                       
+                        Mua hàng online: 0382567198<br>
+                       
+                        Email: hongphongpham1003@gmail.com<br>
+                    </p>
+                </div>
+                <div class="footer2 col col-sm-3">
+                    <a href="#">
+                        <p>Giới thiệu</p>
+                    </a>
+                    <a href="#">
+                        <p>Triết lý kinh doanh</p>
+                    </a>
+                    <a href="#">
+                        <p>Liên hệ</p>
+                    </a>
+                    <a href="#">
+                        <p>Hệ thống showroom</p>
+                    </a>
+                </div>
+                <div class="footer2 col col-sm-3">
+                    <a href="#">
+                        <p>Chính sách giao nhận - vận chuyển</p>
+                    </a>
+                    <a href="#">
+                        <p>Hướng dẫn thanh toán</p>
+                    </a>
+                    <a href="#">
+                        <p>Quy định đổi hàng</p>
+                    </a>
+                    <a href="#">
+                        <p>Quy định bảo hành</p>
+                    </a>
+                    <a href="#">
+                        <p>Khách hàng thân thiết</p>
+                    </a>
+                </div>
+                
+            </div>
         </div>
     </div>
 </body>
+
 </html>
