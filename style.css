@@ -2,32 +2,9 @@
     margin: 0;
     padding: 0;
 }
+
 a{
     text-decoration: none;
-}
-.header{
-    background-color: black;
-    height: 30px;
-    width: 100%;
-}
-
-.header div a{
-    color: aliceblue;
-    font-size: 15px;
-    text-decoration: none ;
-    margin-left: 3px;
-}
-
-.header-left{
-    float: left;
-    margin-top: 5px;
-    margin-left: 40px;
-}
-
-.header-right{
-    float: right;
-    margin-top: 5px;
-    margin-right: 40px;
 }
 
 .navbar{
@@ -37,6 +14,9 @@ a{
     display: flex;
     justify-content: space-evenly; /*cach deu cac div*/
     align-items: center;
+    position: fixed;
+    top: 0;
+    border-bottom: black 1.5px solid;
 }
 
 .navbar .logo{
@@ -99,7 +79,7 @@ a{
 .menu ul li:hover .sub-menu1{
     display: block;
     position: absolute;
-    border: gray;
+    border: 1px solid gray;
     border-radius: 10px;
     background: aliceblue;
     margin-left: -10px;
@@ -138,4 +118,177 @@ a{
     color: gray;
     font-family: arial;
     font-weight: 300;
+}
+
+.banner{
+    margin-top: 100px;
+}
+.new-product-title{
+    text-align: center;
+    margin: 30px 0 30px 0;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-weight: 600;
+}
+
+.new-product .card-img-top{
+    width: 321px;
+    height: 482px;
+}
+
+.container{
+    height: 550px;
+}
+
+.row{
+    text-align: center;
+    height: 100%;
+}
+
+.col {
+    float: left;
+    /* padding-left: 8px;
+    padding-right: 8px; */
+}
+
+.col-sm-3 {
+    width: 25%;
+}
+
+.container .card-title{
+    display: inline-block;
+    font-size: 14px;
+    color: #8A8A8F;
+    font-family: 'Nanum Gothic Coding', monospace;
+    padding: 8px 0 8px 0;
+}
+
+.container .card-text{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.banner2{
+    margin-bottom: 50px;
+}
+
+/* pre-footer */
+
+.pre-footer{
+    height: auto;
+    background-color: #efeff4;
+    padding: 50px 0 50px 0;
+}
+
+.pre-footer .inner{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pre-footer .subscribe h2{
+    color: #070707;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 54px;
+    margin: 0px;
+}
+
+.pre-footer .subscribe p{
+    color: #070707;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.pre-footer .sub-describe{
+    margin-bottom: 30px;
+}
+
+.pre-footer .sub-form{
+}
+
+.pre-footer .sub-form form{
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.pre-footer .sub-form input{
+    width: 100%;
+    height: 28px;
+    line-height: 44px;
+    background:#FFFFFF;
+    border: 1px solid #C8C7CC;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.pre-footer .sub-form button{
+    position: absolute;
+    top: 1px;
+    right: -21px;
+    width: auto;
+    height: 48px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 40px 0 40px;
+    border: 1px solid #070707;
+    cursor: pointer;
+}
+
+.pre-footer .social-icon{
+    margin-top: 30px;
+
+}
+
+.pre-footer .social-icon .fb-icon{
+    color: blue;
+}
+
+.pre-footer .social-icon a{
+    font-size: 32px;
+    color: red;
+    margin-right: 5px;
+}
+
+
+.footer{
+    background-color: black;
+    height: 350px;
+    width: 100%;
+}
+
+.footer1{
+    margin-top: 50px;
+    color: #fff;
+    text-align: left;
+    margin-left: 5%;
+    line-height: 1.7;
+}
+
+.footer1 h5{
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.footer1 p{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.footer2{
+    margin-top: 90px;
+    color: #fff;
+    text-align: left;
+    margin-left: 5%;
+    line-height: 1.5;
+}
+
+.footer2 a{
+    color: #fff;
+    font-size: 16px;
 }
